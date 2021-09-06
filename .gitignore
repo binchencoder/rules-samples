@@ -1,0 +1,16 @@
+.classpath
+.project
+.settings/
+/bin/
+/logs/
+
+# for IntelliJ IDEA description files
+.idea
+*.iml
+*.idb
+target/
+logs/
+.DS_Store
+*.iml
+
+.factorypath
