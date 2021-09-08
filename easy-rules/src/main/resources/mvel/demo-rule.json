@@ -1,0 +1,16 @@
+[
+  {
+    "priority": 2,
+    "condition": "(formCond.params['numberField'] >= 18) && (formCond.params['selectField'].contains('111') || formCond.params['selectField'].contains('222') )",
+    "actions": [
+      "formCond.setNextNodeId('111');"
+    ]
+  },
+  {
+    "priority": 1,
+    "condition": "formCond.params['numberField'] >= 18",
+    "actions": [
+      "formCond.setNextNodeId('222');"
+    ]
+  }
+]
